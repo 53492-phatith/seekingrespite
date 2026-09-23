@@ -1,0 +1,30 @@
+<div class="app-container">
+  <header class="navbar">
+    <div class="logo">
+      📚 <span>OpenLib E-Books</span>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for books, authors...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="hero">
+      <h1>Welcome to your Digital Library</h1>
+      <p>Discover, borrow, and return your favorite e-books anywhere.</p>
+    </div>
+
+    <section class="book-section">
+      <h2>Library Catalog</h2>
+      <div id="loading" class="loading">Loading books from Supabase...</div>
+      <div id="bookGrid" class="book-grid">
+        <!-- Books will be injected here by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 OpenLib E-Books. Powered by Supabase.</p>
+  </footer>
+</div>
